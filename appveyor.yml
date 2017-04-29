@@ -34,3 +34,4 @@ deploy:
       secure: Y/AgjrCeBdDo/UpZoyVLIV61fC3YNdmAgMQ1yHE6lMxs0ArlO5NDCmu2cUpcXR/Y
     on:
       branch: master
+     server: https://api.nuget.org/v3/catalog0/index.json
