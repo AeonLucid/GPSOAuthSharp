@@ -18,12 +18,12 @@
     "debugType": "portable"
   },
   "dependencies": {
-    "Portable.BouncyCastle": "1.8.1.1"
+    "Portable.BouncyCastle": "1.8.1.2"
   },
   "frameworks": {
-    "netstandard1.1": {
+    "netstandard1.6": {
       "dependencies": {
-        "NETStandard.Library": "1.6.0"
+        "NETStandard.Library": "1.6.1"
       }
     }
   }
