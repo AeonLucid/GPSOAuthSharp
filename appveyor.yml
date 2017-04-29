@@ -23,7 +23,8 @@ after_build:
   - dotnet pack "src\GPSOAuthSharp.NetStandard1" -c %CONFIGURATION% --no-build -o artifacts
   
 artifacts:
-  - path: artifacts\*.nupkg
+  - path: src\GPSOAuthSharp.NetStandard1\artifacts\*.nupkg
+  - path: demo\GPSOAuthSharp.Demo\artifacts\*.nupkg
 
 cache:
   - '%USERPROFILE%\.nuget\packages'
